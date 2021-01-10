@@ -3,10 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div `
 display:flex;
 align-items:center;
-background:var(--black);
-
-
+background:var(--white);
+height:100%;
 
 
 `
-
