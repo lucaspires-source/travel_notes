@@ -1,6 +1,6 @@
 import React from 'react'
-import {Container} from './styles'
-const CardsArea:React.FC = () => {
+import { Container } from './styles'
+const CardsArea: React.FC = () => {
     return (
         <Container>
 
