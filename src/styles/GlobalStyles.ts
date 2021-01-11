@@ -23,6 +23,6 @@ ul{
     --black:#000;
     --green:#4f9419;
     --darkgreen:#006c18;
-    --grey:#868686;
+    --gray:#868686;
 }
 `;

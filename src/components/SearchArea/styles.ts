@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Select from '@material-ui/core/Select';
+
 
 export const Container = styled.form `
 display:flex;
@@ -7,7 +7,6 @@ background-color:var(--green);
 height:247px;
 align-items:center;
 justify-content:space-around;
-padding:100px,72px,72px,72px
 `
 
 export const Button= styled.button `
@@ -17,7 +16,13 @@ background-color:var(--darkgreen);
 border-radius:7px;
 color:var(--white);
 font-size:18px;
-
+display: block;
+border:2px solid var(--darkgreen);
+cursor: pointer;
+:hover{
+    transition:.2s ease;
+    background-color:var(--green);
+}
 
 `
 
@@ -27,7 +32,7 @@ width: 303px;
 height: 48px;
 border-radius:7px;
 background-color:var(--white);
-color:var(--grey);
+color:var(--gray);
 padding-right:16px;
 ::placeholder{
     font-size: 16px;
@@ -41,7 +46,13 @@ line-height: 19px;
 margin-bottom:5px;
 display: block;
 `
-
+export const Labels= styled.label `
+color:transparent;
+font-size: 16px;
+line-height: 19px;
+margin-bottom:5px;
+display: block;
+`
 
 export const InputLocal= styled.input `
 display: block;
@@ -49,7 +60,7 @@ width: 455px;
 height: 48px;
 border-radius:7px;
 background-color:var(--white);
-color:var(--grey);
+color:var(--gray);
 padding:18px;
 align-items:center;
 ::placeholder{
@@ -63,7 +74,7 @@ width: 238px;
 height: 48px;
 border-radius:7px;
 background-color:var(--white);
-color:var(--grey);
+color:var(--gray);
 padding:18px;
 ::placeholder{
     font-size: 16px;

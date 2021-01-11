@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button, SelectForm, Label, InputLocal, InputData } from './styles'
+import { Container, Button, SelectForm, Label, InputLocal, InputData,Labels } from './styles'
 const CardsArea: React.FC = () => {
     return (
         <Container>
@@ -16,7 +16,9 @@ const CardsArea: React.FC = () => {
             <Label>Metas
                 <InputData type="text" placeholder="mês/ano" />
             </Label>
-            <Button>Adicionar</Button>
+            <Labels>Botão
+                <Button>Adicionar</Button>
+            </Labels>
         </Container>
     )
 }
